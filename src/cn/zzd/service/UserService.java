@@ -1,0 +1,17 @@
+package cn.zzd.service;
+
+import cn.zzd.domain.User;
+
+/**
+ * @author 张振东
+ * @version V1.0
+ * @Title:
+ * @Package
+ * @Description: (用一句话描述该文件做什么)
+ * @date：
+ */
+public interface UserService {
+	boolean regist(User user);
+
+	User login(User user);
+}
